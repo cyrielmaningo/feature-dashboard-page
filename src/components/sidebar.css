@@ -1,0 +1,43 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #2b2b2b; /* Dark background for contrast */
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: fixed; /* Fix sidebar in place */
+    top: 0;
+    left: 0;
+}
+
+.sidebar-title {
+    margin: 0;
+    font-size: 1.8em; /* Larger title font size */
+    color: #beb9b9;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin-top: 30px; /* Add space above the menu */
+}
+
+.sidebar-menu li {
+    margin: 15px 0; /* Space between menu items */
+}
+
+.sidebar-link {
+    text-decoration: none; /* Remove underline */
+    color: #d3d3d3; /* Light text color */
+    padding: 12px; /* Adjust padding for better spacing */
+    display: block; /* Make link occupy full width */
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px; /* Smooth, rounded corners */
+}
+
+.sidebar-link:hover {
+    background-color: #646cff; /* Change background on hover */
+    color: white; /* White text on hover */
+}
